@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
 :root{
-  --primary: #efb6b2;
+  --primary: #2ed5ff;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
 }
@@ -65,6 +65,11 @@ label:hover{
 
 /* progress bar styles */
 
+.progress-bar{
+  height: 5px;
+  background: var(--primary);
+  margin-top: 20px;
+}
 
 /* image grid styles */
 
