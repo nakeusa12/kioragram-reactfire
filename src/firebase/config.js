@@ -4,16 +4,16 @@ import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyDDgNbxDLEtNaKlkEElJ57qaIRg2dW5vlM",
-    authDomain: "kioragram.firebaseapp.com",
-    databaseURL: "https://kioragram.firebaseio.com",
-    projectId: "kioragram",
-    storageBucket: "kioragram.appspot.com",
-    messagingSenderId: "240435993360",
-    appId: "1:240435993360:web:4684080c76aa0463cba395",
-    measurementId: "G-NSWCGYYFPB"
+  apiKey: "AIzaSyBqhUjeZ0quIlFd93H4Wxk9zFGe_Pbf6T0",
+  authDomain: "pro-kiogram.firebaseapp.com",
+  databaseURL: "https://pro-kiogram.firebaseio.com",
+  projectId: "pro-kiogram",
+  storageBucket: "pro-kiogram.appspot.com",
+  messagingSenderId: "1062047362040",
+  appId: "1:1062047362040:web:315d5e2e91807a5540440d",
+  measurementId: "G-J8GCC0RSF2"
 };
-  // Initialize Firebase
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 const projectStorage = firebase.storage();
